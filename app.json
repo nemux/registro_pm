@@ -1,0 +1,13 @@
+{
+  "name": "registro-pm",
+  "description": "This app does one little thing, and does it well.",
+  "image": "heroku/python",
+  "env": {
+    "DEBUG": "False",
+    },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+}
