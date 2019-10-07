@@ -69,7 +69,7 @@ class MoralPerson(db.Model):
         self.numero_cuenta_evva = numero_cuenta_evva
         self.clabe = clabe
         self.fecha_apertura = fecha_apertura
-        self.fecha_apertura = application_id
+        self.application_id = application_id
 
     def __repr__(self):
         return '<id {}>'.format(self.id)
