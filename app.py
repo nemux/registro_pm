@@ -94,7 +94,7 @@ def UpdateClient():
 
             if persona_moral is None:
                 persona_moral = MoralPerson(legal_first_name, legal_second_name, legal_father_last_name, legal_mother_last_name,
-                                            "", "", "", "", "", "", "", "", "", rfc, "", "", "", "", "", "", "", "", "",
+                                            "", "", "", "", "", "", "", "", business_name, rfc, "", "", "", "", "", "", "", "", "",
                                             id_cliente, numero_cuenta_evva, clabe, fecha_apertura, application_id)
 
                 db.session.add(persona_moral)
